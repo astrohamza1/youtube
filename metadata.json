@@ -1,0 +1,5 @@
+{
+  "name": "Gemini YouTube Downloader",
+  "description": "A sleek, modern web application to fetch video information and available download formats from a YouTube URL using the Gemini API.",
+  "requestFramePermissions": []
+}
