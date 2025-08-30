@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { VideoInfo } from './types';
 import { getVideoInfoAndFormats } from './services/geminiService';
-import UrlInputForm from './components/SearchBar'; // Re-purposed component
-import VideoDetails from './components/VideoGrid';  // Re-purposed component
+import UrlInputForm from './components/UrlInputForm';
+import VideoDetails from './components/VideoDetails';
 import ThemeToggle from './components/ThemeToggle';
 import { CloseIcon } from './components/icons';
 

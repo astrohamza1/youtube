@@ -1,5 +1,5 @@
 {
-  "name": "Gemini YouTube Downloader",
-  "description": "A sleek, modern web application to fetch video information and available download formats from a YouTube URL using the Gemini API.",
+  "name": "VidFetch Pro",
+  "description": "An elegant web application to fetch video information and available download formats from a YouTube URL using the power of the Gemini API.",
   "requestFramePermissions": []
 }
