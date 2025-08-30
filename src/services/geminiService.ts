@@ -1,7 +1,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { VideoInfo } from '../types';
 
-// FIX: Switched to process.env.API_KEY to align with Gemini API guidelines and resolve TypeScript error.
+// FIX: Adhere to the API key usage guidelines. The API key must be obtained
+// exclusively from `process.env.API_KEY` and used directly in the client
+// initialization.
 // Initialize the GoogleGenAI client with the API key from environment variables.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
 
